@@ -9,7 +9,6 @@ long long int fibo(int i) {
 }
 int main(int argc, char **argv) {
    int n;
-   long long int *arr;
    if (argc == 2)
       n = atoi(argv[1]); 
    printf("fibo[%d] = %lld\n", n, fibo(n));
