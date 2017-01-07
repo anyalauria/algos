@@ -71,7 +71,7 @@ int main(int argc, char **argv) {
       }
    } else {
       while(i < m) {
-         arr3[k] = arr1[i]; j++; k++;
+         arr3[k] = arr1[i]; i++; k++;
       }
    }
 // check and print the third array
