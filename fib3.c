@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+// this version of the recursive fibonacci number
+// generator uses 'memization', a technique in which
+// we store partial results (or complete results) for
+// smaller/different values of the problem. This avoids
+// re-computation of the code for the same inputs.
 
 long long int *arr;
 long long int fibo(int i) {
