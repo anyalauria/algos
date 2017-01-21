@@ -81,11 +81,11 @@ int main(int argc, char **argv) {
    }
    mergeSort(arr1,0,m-1);
 // check and print the final array
-   printf("*******************************\n");
+   //printf("*******************************\n");
    for(int i=0;i<m-1;i++) {
       if(arr1[i]>arr1[i+1])printf("yeh kya hua, kyon hua, kaise hua\n");
-      printf("%d \n",arr1[i]);
+      //printf("%d \n",arr1[i]);
    }
-   printf("%d\n",arr1[m-1]);
+   //printf("%d\n",arr1[m-1]);
    exit(0);
 }
