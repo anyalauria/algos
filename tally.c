@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h> 
 
-void tally_sort(int arr**, int n){
+void tally_sort(int *arr, int n){
 
    int min = 0, max = 0; 
 
